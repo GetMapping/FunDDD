@@ -4,6 +4,7 @@
 > * 관련된 객체를 하나의 군으로 묶음
 > * 상위 수준에서 모델 바라봐 복잡한 도메인을 이해하고 관리하기 쉬운 단위로 만드는 방법
 > * 애그리거트에 속한 객체는 유사/동일한 라이프 사이클 가짐
+> ![](https://github.com/rigyeonghong/FunDDD/blob/main/rigyeong/CH3/image/Pasted%20image%2020240211182015.png)
 
 ## 3.2 애그리거트 루트
 
