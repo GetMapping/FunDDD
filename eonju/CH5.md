@@ -50,3 +50,7 @@
   - @Immutable의 경우 매핑 필드/프로퍼티가 변경되더라도 DB에 반영하지 않고 무시한다.
   - @Syncronize의 경우 엔티티와 관련된 테이블 목록을 명시하면 하이버네이트는 엔티티를 로딩하기 전에 지정한 테이블과 관련된 변경이 발생하면서 플러시를 먼저 한다.
   - 만일 서브쿼리를 사용하고 싶지 않다면 네이티브 SQL 쿼리를 사용하거나 마이바티스와 같은 별도 매퍼를 사용해서 조회기능을 구현해야 한다.
+
+### 난 queryDSL이 더 좋아보임..
+- [실제 개발시 조금만 복잡해져도 cretaria는 읽기 어려워짐..](https://www.inflearn.com/questions/16685/specification-%EB%8C%80%EB%B9%84-querydsl%EC%9D%98-%EC%9E%A5%EC%A0%90%EC%9D%B4-%EC%96%B4%EB%96%A4%EA%B2%83%EC%9D%B4-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94)
+- [JPA와 동적쿼리 - tecoble](https://tecoble.techcourse.co.kr/post/2022-10-11-jpa-dynamic-query/)
