@@ -60,7 +60,7 @@ public class MemoryOrderRepository implements OrderRepository {
 	cb.equal(root.get(OrderSummary_.ordererId), ordererId); // 정적 메타 모델 이용
 	```
 	```java
-	cb.equal(root.<String>get("ordererId"), ordererId); // 문자열 이용
+	cb.equal(root.<String>get("ordererId"), ordererId); // 문자열 이용
 	```
 	* 하이버네이트와 같은 JPA 프로바이더는 정적 메타 모델 생성하는 도구 제공.
 	* 함수형 인터페이스이므로, 람다식 이용해서 객체 생성 가능.
